@@ -12,7 +12,7 @@ export const PortfolioSection: React.FC<PortfolioSectionProps> = ({ settings, on
     {
       title: 'Dine-In Restaurant Management & Multi-KOT System',
       sector: 'Fine Dining & Casual Cafes',
-      image: '/src/assets/images/pos_restaurant_mockup_1793979101826.jpg',
+      image: `${import.meta.env.BASE_URL}assets/images/pos_restaurant_mockup_1793979101826.jpg`,
       slug: 'restaurant-pos-software',
       description: 'Integrated touch terminal billing with multi-printer kitchen order routing, table-side waiter ordering, and daily recipe-level inventory control.',
       deliverables: ['Table Floor Plan', 'Dual Kitchen Printers', 'Waitstaff Handhelds', 'Cashier Z-Reports']
@@ -20,7 +20,7 @@ export const PortfolioSection: React.FC<PortfolioSectionProps> = ({ settings, on
     {
       title: 'High-Speed Supermarket Barcode Checkout System',
       sector: 'Grocery & Departmental Stores',
-      image: '/src/assets/images/retail_pos_mockup_1793979088491.jpg',
+      image: `${import.meta.env.BASE_URL}assets/images/retail_pos_mockup_1793979088491.jpg`,
       slug: 'retail-pos-software',
       description: 'Multi-counter barcode scanning checkout lanes capable of processing 200+ transactions per hour with integrated electronic cash drawer reconciliation.',
       deliverables: ['Omnidirectional Barcode Scanner', 'Thermal Invoice Roll', 'Customer Loyalty Ledger', 'Daily Shift Balances']
@@ -28,7 +28,7 @@ export const PortfolioSection: React.FC<PortfolioSectionProps> = ({ settings, on
     {
       title: 'Centralized Multi-Warehouse Distribution & ERP',
       sector: 'Wholesale & Manufacturing',
-      image: '/src/assets/images/erp_business_dashboard_1793979088994.jpg',
+      image: `${import.meta.env.BASE_URL}assets/images/erp_business_dashboard_1793979088994.jpg`,
       slug: 'erp-software',
       description: 'Unified commercial ERP linking sales order pipelines, purchase receiving verification, stock transit tracking, and double-entry accounting ledger.',
       deliverables: ['Centralized Database', 'Purchase Order Approval', 'Batch Tracking', 'Executive Financial Reports']
@@ -36,7 +36,7 @@ export const PortfolioSection: React.FC<PortfolioSectionProps> = ({ settings, on
     {
       title: 'Prescription Pharmacy & Drug Batch Expiry System',
       sector: 'Medical Stores & Clinics',
-      image: '/src/assets/images/pharmacy_inventory_mockup_1793979088899.jpg',
+      image: `${import.meta.env.BASE_URL}assets/images/pharmacy_inventory_mockup_1793979088899.jpg`,
       slug: 'pharmacy-management-software',
       description: 'Specialized healthcare dispensing software with near-expiry alerts, generic drug formula lookup, and distributor payment scheduling.',
       deliverables: ['Expiry Warning Radar', 'Generic Formula Index', 'Distributor Bonus Accounting', 'Controlled Drug Logs']

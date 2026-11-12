@@ -81,7 +81,7 @@ export const QuoteModal: React.FC<QuoteModalProps> = ({
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-xl overflow-hidden border border-[#D4AF37]/50 shrink-0">
               <img
-                src="/assets/aistudio/RAJ_Software_Gold_Wall_Sign_efc988de.png"
+                src=`${import.meta.env.BASE_URL}assets/aistudio/RAJ_Software_Gold_Wall_Sign_efc988de.png`
                 alt="RAJ Software Solution"
                 className="w-full h-full object-cover"
               />

@@ -27,7 +27,7 @@ export const Logo: React.FC<LogoProps> = ({ className = '', iconOnly = false, si
       {/* 3D Gold RAJ Software Logo Emblem */}
       <div className={`relative ${iconSize} shrink-0 rounded-xl overflow-hidden border border-[#D4AF37]/60 shadow-lg shadow-black/50 bg-[#0B0F19] group`}>
         <img
-          src="/assets/aistudio/RAJ_Software_Gold_Wall_Sign_efc988de.png"
+          src=`${import.meta.env.BASE_URL}assets/aistudio/RAJ_Software_Gold_Wall_Sign_efc988de.png`
           alt="RAJ Software Solution Logo"
           className="w-full h-full object-cover object-center transform transition-transform duration-300 group-hover:scale-110"
         />

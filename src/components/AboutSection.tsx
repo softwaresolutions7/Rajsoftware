@@ -34,7 +34,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ settings, onExploreS
             <div className="relative rounded-2xl overflow-hidden border border-[#D4AF37]/40 shadow-2xl shadow-black/80 bg-gradient-to-br from-[#0e1726] to-[#070b14] p-3 group">
               <div className="relative rounded-xl overflow-hidden aspect-[4/3]">
                 <img
-                  src="/assets/aistudio/RAJ_Software_Gold_Wall_Sign_efc988de.png"
+                  src=`${import.meta.env.BASE_URL}assets/aistudio/RAJ_Software_Gold_Wall_Sign_efc988de.png`
                   alt="RAJ Software Solution Headquarters"
                   className="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105"
                 />
