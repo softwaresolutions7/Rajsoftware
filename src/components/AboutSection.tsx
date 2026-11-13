@@ -35,7 +35,10 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ settings, onExploreS
               <div className="relative rounded-xl overflow-hidden aspect-[4/3]">
                 <img
                   
-src="/Rajsoftware/assets/aistudio/RAJ_Software_Gold_Wall_Sign_efc988de.png"
+<img
+  src="/Rajsoftware/assets/aistudio/RAJ_Software_Gold_Wall_Sign_efc988de.png"
+  alt="RAJ Software Logo"
+/>
 
                   alt="RAJ Software Solution Headquarters"
                   className="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105"
