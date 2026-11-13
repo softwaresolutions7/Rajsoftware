@@ -157,19 +157,7 @@ export const api = {
     } catch {
       // Fallback
     }
-    // Repair image URLs saved by older builds that used /src/assets paths.
-    const products = getLocal<SoftwareProduct[]>(PRODUCTS_KEY, initialProducts).map((product) => {
-      const imageName = product.image?.split('/').pop();
-      const isLocalProjectImage = Boolean(imageName) &&
-        (product.image.startsWith('/src/assets/images/') ||
-         product.image.startsWith('/assets/images/'));
-
-      return isLocalProjectImage
-        ? { ...product, image: `${import.meta.env.BASE_URL}assets/images/${imageName}` }
-        : product;
-    });
-    setLocal(PRODUCTS_KEY, products);
-    return products;
+    return getLocal<SoftwareProduct[]>(PRODUCTS_KEY, initialProducts);
   },
 
   async updateProduct(id: string, updates: Partial<SoftwareProduct>): Promise<SoftwareProduct> {

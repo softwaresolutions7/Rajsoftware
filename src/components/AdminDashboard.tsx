@@ -270,9 +270,7 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-xl overflow-hidden border border-[#D4AF37]/50 shrink-0 bg-[#0B0F19]">
               <img
-                
-src="/Rajsoftware/assets/aistudio/RAJ_Software_Gold_Wall_Sign_efc988de.png"
-
+                src="/Rajsoftware/assets/aistudio/RAJ_Software_Gold_Wall_Sign_efc988de.png"
                 alt="RAJ Software Solution"
                 className="w-full h-full object-cover"
               />
@@ -316,7 +314,7 @@ src="/Rajsoftware/assets/aistudio/RAJ_Software_Gold_Wall_Sign_efc988de.png"
             <div className="text-center space-y-3">
               <div className="w-16 h-16 rounded-2xl overflow-hidden border border-[#D4AF37]/50 mx-auto shadow-xl shadow-black/80 bg-[#0B0F19]">
                 <img
-                  src=`${import.meta.env.BASE_URL}assets/aistudio/RAJ_Software_Gold_Wall_Sign_efc988de.png`
+                  src="/Rajsoftware/assets/aistudio/RAJ_Software_Gold_Wall_Sign_efc988de.png"
                   alt="RAJ Software Solution"
                   className="w-full h-full object-cover"
                 />
@@ -735,7 +733,7 @@ src="/Rajsoftware/assets/aistudio/RAJ_Software_Gold_Wall_Sign_efc988de.png"
                               shortDescription: 'Custom automated workflow software.',
                               fullDescription: 'Custom automated workflow software tailored for specialized enterprise requirements.',
                               iconName: 'Cpu',
-                              image: `${import.meta.env.BASE_URL}assets/images/hero_software_suite_1793979102769.jpg`,
+                              image: '/Rajsoftware/assets/images/hero_software_suite_1793979102769.jpg',
                               isPublished: true,
                               order: products.length + 1,
                               features: ['Custom user roles', 'Automated reports', 'Local database sync'],

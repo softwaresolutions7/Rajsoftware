@@ -49,7 +49,7 @@ export const Hero: React.FC<HeroProps> = ({ settings, onExplore, onContactSales 
             {/* Tagline Badge with Golden Emblem */}
             <div className="inline-flex items-center gap-2.5 px-3 py-1.5 rounded-full bg-slate-900/90 border border-[#D4AF37]/40 text-xs text-slate-300 shadow-sm">
               <img
-                src=`${import.meta.env.BASE_URL}assets/aistudio/RAJ_Software_Gold_Wall_Sign_efc988de.png`
+                src="/Rajsoftware/assets/aistudio/RAJ_Software_Gold_Wall_Sign_efc988de.png"
                 alt="RAJ Software Solution"
                 className="w-4 h-4 rounded-full object-cover border border-[#D4AF37]/60"
               />
@@ -189,9 +189,7 @@ export const Hero: React.FC<HeroProps> = ({ settings, onExplore, onContactSales 
                 {activeTab === 'restaurant' && (
                   <div className="w-full h-full relative group">
                     <img
-                      
-src="/Rajsoftware/assets/aistudio/RAJ_Software_Gold_Wall_Sign_efc988de.png"
-
+                      src="/Rajsoftware/assets/images/pos_restaurant_mockup_1793979101826.jpg"
                       alt="RAJ Restaurant POS Software Interface"
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                       referrerPolicy="no-referrer"
@@ -212,7 +210,7 @@ src="/Rajsoftware/assets/aistudio/RAJ_Software_Gold_Wall_Sign_efc988de.png"
                 {activeTab === 'retail' && (
                   <div className="w-full h-full relative group">
                     <img
-                      src=`${import.meta.env.BASE_URL}assets/images/retail_pos_mockup_1793979088491.jpg`
+                      src="/Rajsoftware/assets/images/retail_pos_mockup_1793979088491.jpg"
                       alt="RAJ Retail POS Barcode Scanning Interface"
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                       referrerPolicy="no-referrer"
@@ -233,7 +231,7 @@ src="/Rajsoftware/assets/aistudio/RAJ_Software_Gold_Wall_Sign_efc988de.png"
                 {activeTab === 'erp' && (
                   <div className="w-full h-full relative group">
                     <img
-                      src=`${import.meta.env.BASE_URL}assets/images/erp_business_dashboard_1793979088994.jpg`
+                      src="/Rajsoftware/assets/images/erp_business_dashboard_1793979088994.jpg"
                       alt="RAJ Enterprise ERP Financial and Pipeline Analytics Dashboard"
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                       referrerPolicy="no-referrer"
@@ -254,7 +252,7 @@ src="/Rajsoftware/assets/aistudio/RAJ_Software_Gold_Wall_Sign_efc988de.png"
                 {activeTab === 'accounting' && (
                   <div className="w-full h-full relative group">
                     <img
-                      src=`${import.meta.env.BASE_URL}assets/images/hero_software_suite_1793979102769.jpg`
+                      src="/Rajsoftware/assets/images/hero_software_suite_1793979102769.jpg"
                       alt="RAJ Software Solution Financial Ledger"
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                       referrerPolicy="no-referrer"
