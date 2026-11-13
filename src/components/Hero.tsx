@@ -189,7 +189,9 @@ export const Hero: React.FC<HeroProps> = ({ settings, onExplore, onContactSales 
                 {activeTab === 'restaurant' && (
                   <div className="w-full h-full relative group">
                     <img
-                      src={`${import.meta.env.BASE_URL}assets/aistudio/RAJ_Software_Gold_Wall_Sign_efc988de.png`}
+                      
+src="/Rajsoftware/assets/aistudio/RAJ_Software_Gold_Wall_Sign_efc988de.png"
+
                       alt="RAJ Restaurant POS Software Interface"
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                       referrerPolicy="no-referrer"
